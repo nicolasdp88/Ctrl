@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{F1172F18-AC21-4710-85E3-A7A0BF645A10}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Seed", "..\plugins\Seed\scripts\Seed.vcxproj", "{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4} = {E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +22,15 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Debug|x64.ActiveCfg = Debug|x64
 		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Debug|x64.Build.0 = Debug|x64
-		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Debug|x86.ActiveCfg = Debug|Win32
-		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Debug|x86.Build.0 = Debug|Win32
+		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Debug|x86.ActiveCfg = Release|Win32
+		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Debug|x86.Build.0 = Release|Win32
 		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Release|x64.ActiveCfg = Release|x64
 		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Release|x64.Build.0 = Release|x64
 		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Release|x86.ActiveCfg = Release|Win32
 		{E7D18D0B-805C-4CF2-B22D-7FC50EC4D9D4}.Release|x86.Build.0 = Release|Win32
 		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Debug|x64.ActiveCfg = Debug|x64
-		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Debug|x64.Build.0 = Debug|x64
-		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Debug|x86.ActiveCfg = Debug|Win32
-		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Debug|x86.Build.0 = Debug|Win32
+		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Debug|x86.ActiveCfg = Release|Win32
+		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Debug|x86.Build.0 = Release|Win32
 		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Release|x64.ActiveCfg = Release|x64
 		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Release|x64.Build.0 = Release|x64
 		{6A81E12D-1C27-4D30-B002-ED11D1C75CE3}.Release|x86.ActiveCfg = Release|Win32
